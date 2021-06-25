@@ -1,0 +1,72 @@
+h1{font-family: 'Courier New', Courier, monospace;}
+h2{font-family: 'Courier New', Courier, monospace; font-weight:bold;color: yellow;}
+h3{font-family: 'Courier New', Courier, monospace; color: orange;}
+
+
+
+.header{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    font-size: large;
+   
+}
+.menu{
+
+    display: flex;
+    justify-content:space-between;
+    padding:15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.grid{
+    border: 2px solid black;
+    border-radius: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.origami{
+    border-radius: 20px;
+    background-color: white;
+    
+padding:30px;
+margin:25px;
+width:310px;
+opacity:0.2;
+
+}
+
+.origami:hover{
+    transform:scale(1.2);
+    opacity:1;
+}
+
+.bodyImg{
+
+    color: white;
+    background-image: url(bodyImg.jpg);
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color: white;
+}
+
